@@ -1,0 +1,78 @@
+*{
+    padding: 0; margin: 0;
+}
+body {
+    background-color: rgb(233, 219, 202);
+    }
+    .les{
+        width: 105px;
+        height: 95px;
+        
+    }
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #737373;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 15px;
+    box-sizing: border-box;
+    max-width: 1330px;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    font-weight: 500;
+}
+.menu li{
+    margin-left: 100px;
+}
+.menu li a{
+    color: rgb(23, 23, 23); text-decoration: none;
+}
+.menu li a:hover{
+    color: rgb(203, 103, 31);
+}
+.dowload__wrap{
+    background: url(img/photo_2023-10-03_01-18-48.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 75px 0 145px 0;
+}
+.dowload {
+    color: #ffffff;
+    text-align: center;
+    max-width: 1080px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.dowload__txt {
+    font-weight: 700; font-size: 1.5rem; line-height: 2rem; margin-bottom: 20px;
+}
+.dowload__title {
+    font-weight: 700; font-size: 3rem; line-height: 5rem; margin-bottom: 30px;
+}
+.dowload__subtitle {
+    font-weight: 500; font-size: 1.5rem; line-height: 2rem; margin-bottom: 60px;
+}
+.btn {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    padding: 16px 60px;
+    display: inline-block;
+    margin: 0 15px;
+}
+.btn--brown {
+    border-color: #413f3f;
+    background: #413f3f;
+}
